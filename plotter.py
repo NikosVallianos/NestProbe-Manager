@@ -13,10 +13,10 @@ import matplotlib.dates as dates
 import numpy as np
 import pandas as pd
 
-temp_constant = 0.00390625
 # Read file into an array.
 
 class TL1Log:
+    temp_constant = 0.00390625
     data_filename = None
     firmware_version = None
     data_length = None
@@ -61,9 +61,12 @@ class TL1Log:
                     previous_datetime = dt
                     self.ts = pd.Series(self.temperatures, index=self.datetimes)
             self.ts = pd.Series(self.temperatures, index=self.datetimes)
-
         else:
             print("Wrong filename: %s" % rawdata_filename)
+
+    def csvout(self):
+        print(self.ts)
+
 
 if __name__ == '__main__':
 
