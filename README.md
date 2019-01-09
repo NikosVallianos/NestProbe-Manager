@@ -10,22 +10,6 @@ At the moment, it is only available as a small set of python scripts:
 ## Installation
 To install this program just copy either of the executable files to a
 directory in your system. You will need to have python 3 installed, with
-the following libraries available:
+the following libraries available: sys, struct, math, time, pytz, re, serial,
+signal, datetime, calendar, crc16, intelhex, ntplib, matplotlib, numpy, pandas.
 
- * sys
- * struct
- * math
- * time
- * pytz
- * re
- * serial
- * signal
- * datetime
- * calendar
- * crc16
- * intelhex
- * ntplib
-
- * matplotlib
- * numpy
- * pandas
