@@ -7,17 +7,20 @@ At the moment, it is only available as a small set of python scripts:
  * nestrpobe-manager.py
  * plotter.py
 
+## Requirements
+A working python 3 with the followind additional libraries: pytz, serial, crc16, intelhex, ntplib, matplotlib, numpy, pandas.
+
 ## Installation
 To install this program just copy either of the executable files to a
-directory in your system. You will need to have python 3 installed, with
-the following libraries available: pytz, serial, crc16, intelhex, ntplib, matplotlib, numpy, pandas.
+directory in your system.
 
 ## Devices
-NestProbe-Manager currently works with NestProbe TL1, a 0.3℃  accuracy
-temperature logger that can operate for at least six months on a CR2032
-coin-cell battery. The TL1 is also an open-source project. The NestProbe TL2 is
-a similar device with a 0.13℃ accuracy under development, which will also work
-with NestProbe-Manager.
+NestProbe-Manager currently works with
+[NestProbe TL1](https://github.com/NikosVallianos/NestProbe-TL1),
+a 0.3℃  accuracy temperature logger that can operate for at least six months on
+a CR2032 coin-cell battery. The TL1 is also an open-source project. The
+NestProbe TL2 is a similar device with a 0.13℃ accuracy under development,
+which will also work with NestProbe-Manager.
 
 ## Use
 NestProb
