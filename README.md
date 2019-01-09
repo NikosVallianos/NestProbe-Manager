@@ -13,7 +13,11 @@ directory in your system. You will need to have python 3 installed, with
 the following libraries available: pytz, serial, crc16, intelhex, ntplib, matplotlib, numpy, pandas.
 
 ## Devices
-NestProbe-Manager currently works with NestProbe TL1, a 0.3 ℃  accuracy temperature logger that can operate for at least six months on a CR2032 coin-cell battery. The TL1 is also an open-source project.
+NestProbe-Manager currently works with NestProbe TL1, a 0.3℃  accuracy
+temperature logger that can operate for at least six months on a CR2032
+coin-cell battery. The TL1 is also an open-source project. The NestProbe TL2 is
+a similar device with a 0.13℃ accuracy under development, which will also work
+with NestProbe-Manager.
 
 ## Use
 NestProb
