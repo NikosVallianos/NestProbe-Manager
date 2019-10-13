@@ -1,6 +1,7 @@
 # NestProbe-Manager
 Desktop application to configure and download data from NestProbe devices, and
 to convert data to various useful formats.
+The current command-line script works with [TL1](https://github.com/NikosVallianos/NestProbe-TL1) and should work with the under-development [TL2](https://github.com/NikosVallianos/NestProbe-TL2), as there are no protocol differences between the two.
 
 This application is eventually intended to become a GUI desktop program.
 At the moment, it is only available as a small set of python scripts:
